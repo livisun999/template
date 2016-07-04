@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Trang Chủ Minder</title>
+  <meta charset="utf-8">
+
+  <link href="css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="bower_components/angular/angular-csp.css">
+  <link href="bower_components/angular-material/angular-material.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Lib angular -->
+  <script src="js/angular-aria.min.js"></script>
+  <script src="js/angular-material.min.js"></script>
+  <script src="js/angular-messages.min.js"></script>
+  <script src="js/angular.min.js"></script>
+
+  <!-- /////////////////////////////// -->
+  <div class="header">
+    <div layout="row">
+      <md-toolbar class="md-hue-2 menu_header">
+        <div class="md-toolbar-tools">
+
+          <div class="logo" flex="30" flex-offset="15">
+            <p> Minder</p>
+          </div>
+          <div class="menu1" flex="25" flex-offset="15">
+            <p> Đăng Nhập</p>
+          </div>
+          <div class="menu2" flex="25">
+            <p> Chọn Nước</p>
+          </div>
+        </div>
+      </md-toolbar>
+    </div>
+  </div>
+  <div class="main">
+    <div class="form_login flex-45 flex-offset-33">
+      <form method="post">
+        <div class="dif_login row flex-offset-5" layout-margin>
+          <p> +Đăng Nhập</p>
+          <div class="google_login" layout-margin>
+            <div class="row">
+              <div class="logo_google flex-15">
+                <img src="icon/google.jpg" alt="Google">
+              </div>
+              <div class="text_google flex-66">
+                <p>Đăng nhập bằng tài khoản Google+</p>
+              </div>
+            </div>
+          </div>
+          <div class="facebook_login" layout-margin>
+            <div class="logo_facebook flex-30">
+              <img src="icon/facebook.jpg" alt="Facebook login">
+            </div>
+            <div class="row">
+              <div class="text_facebook flex-66">
+                <p> Đăng nhập bằng tài khoản Facebook</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="minder_login flex-offset-5" flex="66">
+          <div class="row">
+            <label for="username">Tài khoản</label>
+            <input name="username" id="username" type="text">
+          </div>
+          <div class="row">
+            <label for="password" >Mật khẩu</label>
+            <input type="text" id="password" flex="33">
+            <button type="submit" flex="33">Đăng nhập</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

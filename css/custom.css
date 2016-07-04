@@ -1,0 +1,33 @@
+.menu_header {
+    background-color: #1176bc;
+}
+.form_login form{
+    background-color: #FFFFFF;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+.form_login{
+    width: auto;
+    height: auto;
+    float: left;
+}
+.main {
+    width: auto;
+    height: 920px;
+    background-color: #3b525e;
+}
+.google_login {
+    background-color: #ef3f37;
+    border-radius: 20px;
+}
+.google_login .logo_google {
+
+}
+.facebook_login {
+    background-color: #1176bc;
+    border-radius: 20px;
+}
+.dif_login {
+    padding-top:50px;
+}
